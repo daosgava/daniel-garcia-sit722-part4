@@ -12,3 +12,5 @@ terraform.tfstate.backup
 *.secret
 
 secrets.yaml
+
+.DS_Store
