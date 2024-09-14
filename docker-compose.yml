@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   book_catalog:
+    image: book-catalog:1
     build:
       context: ./book_catalog
     ports:
@@ -10,6 +11,7 @@ services:
       - DATABASE_URL=***REMOVED***
 
   inventory_management:
+    image: inventory-management:1
     build:
       context: ./inventory_management
     ports:

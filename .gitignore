@@ -10,3 +10,5 @@ terraform.tfstate.backup
 
 # Ignore sensitive or temporary files
 *.secret
+
+secrets.yaml
